@@ -1,0 +1,45 @@
+{
+  "created_at_utc": "2026-04-29T15:35:01.620836+00:00",
+  "checkpoint": "best",
+  "episodes": 4,
+  "eval_seed_base": 100000,
+  "eval_seeds": [
+    101444,
+    100817,
+    100984,
+    101467
+  ],
+  "topk": 5,
+  "sample_limit": 32,
+  "obs_backend": "discrete_id",
+  "cem_horizon": 3,
+  "runs": [
+    {
+      "run_dir": "/scratch/victoriaflores/wm/sepsis/minha_pasta/results/azul_discrete_cem/e98e2b5316381875c4242f8ddbe9dabe6591f0d28b9feb65a485ef182ed0e9c3",
+      "algo": "azul",
+      "method_id": "azul_discrete_cem",
+      "seed": 7,
+      "eval_seed_base": 120000,
+      "obs_backend": "discrete_id",
+      "cem_horizon": 3
+    },
+    {
+      "run_dir": "/scratch/victoriaflores/wm/sepsis/minha_pasta/results/vermelho_discrete_cem/3298ae71310349e8c351d5be329f99fa0b28c33c2c6171e85df0c381b3f21c83",
+      "algo": "vermelho",
+      "method_id": "vermelho_discrete_cem",
+      "seed": 7,
+      "eval_seed_base": 120000,
+      "obs_backend": "discrete_id",
+      "cem_horizon": 3
+    },
+    {
+      "run_dir": "/scratch/victoriaflores/wm/sepsis/minha_pasta/results/roxo_discrete_cem/7c4ba4f7a33119beff9b317e42b3313ec079f3e603540d6db2c1e9f387e307b0",
+      "algo": "roxo",
+      "method_id": "roxo_discrete_cem",
+      "seed": 7,
+      "eval_seed_base": 120000,
+      "obs_backend": "discrete_id",
+      "cem_horizon": 3
+    }
+  ]
+}
